@@ -17,6 +17,7 @@
 
  ```bash
  git clone https://github.com/coder12341/img-resize.git
+ pip3 install Pillow opencv-python
  cd img-resize
  chmod +x img-resize.py
  ./img-resize.py
