@@ -15,10 +15,21 @@
 
 ### Download
 
+**You should forst have python3 installed!**
+
  ```bash
  git clone https://github.com/coder12341/img-resize.git
  pip3 install Pillow opencv-python
  cd img-resize
- chmod +x img-resize.py
- ./img-resize.py
+ ```
+ 
+ Run on Windows:
+ ```
+ python3 img-resize.py -i path-to-image [-o output-name -r -e] [new width] [new height]
+ ```
+ 
+ Run on Linux and Mac:
+ ```
+  chmod +x img-resize.py
+ ./img-resize.py -i path-to-image [-o output-name -r -e] [new width] [new height]
  ```
